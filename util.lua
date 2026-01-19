@@ -29,7 +29,7 @@ end
 
 function util.getBoundingBox(parts)
 	local minX, minY = math.huge, math.huge
-	local maxX, minY = -math.huge, -math.huge
+	local maxX, maxY = -math.huge, -math.huge
 	local visible = false
 
 	for _, part in parts do
