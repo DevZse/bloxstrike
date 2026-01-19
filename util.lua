@@ -53,3 +53,5 @@ function util.getBoundingBox(parts)
     
     return {pos = vector.create(minX, minY), size = vector.create(maxX - minX, maxY - minY)}
 end
+
+return util
